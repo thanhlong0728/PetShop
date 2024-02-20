@@ -4,10 +4,6 @@ import { Layout } from "antd";
 const { Footer } = Layout;
 
 const FooterFootball = () => {
-  return (
-    <Footer style={{ textAlign: "center" }}>
-      Football ©2021 Created by MrKatsu
-    </Footer>
-  );
+  return <Footer style={{ textAlign: "center" }}></Footer>;
 };
 export default React.memo(FooterFootball);
